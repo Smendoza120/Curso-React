@@ -5,6 +5,12 @@
 
 ## Iniciar el proyecto
 
+Para tener el proyecto de manera local deberas instalar [GIT](https://git-scm.com/download/win)
+
+Para clonar el proyecto deberas usar el siguiente comando:
+
+`git clone [agregas el enlace del repositorio]`
+
 Para actualizar las dependencias usas el siguiente comando (Esto se realiza dentro de la carpeta de nuestro proyecto):
 
 `npm install` o `npm i`
