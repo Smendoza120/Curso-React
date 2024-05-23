@@ -10,6 +10,7 @@ import "primeicons/primeicons.css";
 import { Home } from "./page/Home";
 import { About } from "./page/About";
 import { Contact } from "./page/Contact";
+import Datostabla from "./page/DatosTabla";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/datos-tabla" element={<Datostabla />} />
         </Routes>
       </BrowserRouter>
     </div>

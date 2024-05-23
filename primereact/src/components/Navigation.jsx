@@ -24,17 +24,26 @@ const Navigation = () => {
         window.location.href = "/contact";
       },
     },
+    {
+      label: "DatosTabla",
+      icon: "pi pi-fw pi-chart-bar",
+      command: () => {
+        window.location.href = "/datos-tabla";
+      },
+    },
   ];
 
   return (
     <>
-      <header>
-        <nav>
-          <ul>
-            <Menubar model={navList} />
-          </ul>
-        </nav>
-      </header>
+      <div>
+        <header>
+          <nav>
+            <ul>
+              <Menubar model={navList} />
+            </ul>
+          </nav>
+        </header>
+      </div>
     </>
   );
 };
