@@ -33,7 +33,7 @@ Para actualizar las dependencias usas el siguiente comando (Esto se realiza dent
 Espero este recurso les pueda servir 😁.
 
 #### Axios
-- Para realizar conexiones con APIS estamos usando axios, aqui podremos usar las diferentes solicitudes (GET; PUT, POST, DELETE, PATCH).
+- Para realizar conexiones con APIS estamos usando axios, aqui podremos usar las diferentes solicitudes (GET, PUT, POST, DELETE, PATCH).
 - Esta es la documentación de [AXIOS](https://axios-http.com/es/docs/intro)
 
 #### TypeScript
